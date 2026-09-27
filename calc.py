@@ -6,4 +6,10 @@ def sub(a, b):
     return a - b
 
 
-# TODO: members add functions here
+def div(a, b):
+    if b == 0:
+        raise ValueError("b cannot be 0")
+    return a / b
+
+def mod(a, b):
+    return a % b
