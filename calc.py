@@ -7,3 +7,8 @@ def sub(a, b):
 
 
 # TODO: members add functions here
+def mul(a, b):
+    return a * b
+
+def power(a, b):
+    return a ** b
